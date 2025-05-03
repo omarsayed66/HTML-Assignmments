@@ -21,76 +21,31 @@
 
     <section>
       <form>
-        <div>
-          <input
-            type="checkbox"
-            id="ProblemSolving"
-            value="Problem Solving"
-            name="Skills"
-          />
-          <label for="ProblemSolving">Problem Solving</label>
-        </div>
+        <label for="Lang">Choose Yor Language</label>
+        <select name="Lang" id="Lang">
+          <optgroup label="Phb">
+            <option value="5">V5.0</option>
+            <option value="7">V7.0</option>
+            <option value="8">V8.0</option>
+          </optgroup>
+          <optgroup label="Python">
+            <option value="1" selected>V1.0</option>
+            <option value="2">v2.0</option>
+            <option value="3">v3.0</option>
+          </optgroup>
+        </select>
 
-        <div>
-          <input
-            type="checkbox"
-            id="LogicalThinking"
-            value="Logical Thinking"
-            name="Skills"
-          />
-          <label for="LogicalThinking">Logical Thinking</label>
-        </div>
+        <hr />
 
-        <div>
-          <input
-            type="checkbox"
-            id="AdvancedSearch"
-            value="Advanced Search"
-            name="Skills"
-            checked
-          />
-          <label for="AdvancedSearch">Advanced Search</label>
-        </div>
+        <textarea
+          name="txt"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Text What You Want Here"
+        ></textarea>
 
-        <div>
-          <input type="checkbox" id="Analysis" value="Analysis" name="Skills" />
-          <label for="Analysis">Analysis</label>
-        </div>
-
-        <div>
-          <input type="checkbox" id="Planning" value="Planning" name="Skills" />
-          <label for="Planning">Planning</label>
-        </div>
-        <br />
-
-        <div>
-          <input type="radio" id="banker" value="banker" name="Job" />
-          <label for="banker">Banker</label>
-        </div>
-        <div>
-          <input type="radio" id="officer" value="officer" name="Job" />
-          <label for="officer">Officer</label>
-        </div>
-        <div>
-          <input type="radio" id="doctor" value="doctor" name="Job" />
-          <label for="doctor">Doctor</label>
-        </div>
-        <div>
-          <input
-            type="radio"
-            id="managment"
-            value="managment"
-            name="Job"
-            checked
-          />
-          <label for="managment">Mangment</label>
-        </div>
-        <div>
-          <input type="radio" id="teacher" value="teacher" name="Skills" />
-          <label for="teacher">Teacher</label>
-        </div>
-
-        <br />
+        <hr />
         <div>
           <input type="reset" value="Reset" />
           <input type="submit" value="Send" />
