@@ -317,6 +317,17 @@
               <input type="text" id="email" value="os@gmail.com" name="Email" />
             </div>
             <br />
+            <div>
+              <label for="email">Second Email</label>
+              <input
+                type="text"
+                id="email"
+                value="Orb25@gmail.com"
+                name="Email"
+                disabled
+              />
+            </div>
+            <br />
 
             <div>
               <label for="passeword">Passeword</label>
@@ -327,6 +338,20 @@
                 min="8"
                 max="8"
                 name="Passeword"
+              />
+            </div>
+            <br />
+            <div>
+              <label for="passeword">Alternative Passeword</label>
+              <input
+                type="password"
+                id="passeword"
+                placeholder="1@2!O8N%^"
+                min="8"
+                max="8"
+                name="Passeword"
+                value="000013"
+                readonly
               />
             </div>
 
@@ -384,6 +409,151 @@
               <input type="file" id="file" name="File" />
             </div>
           </div>
+
+          <hr />
+
+          <!-- ................................ -->
+
+          <div>
+            <h3>" Job "</h3>
+
+            <div>
+              <label for="teacher">Teacher</label>
+              <input type="radio" id="teacher" name="Job" value="Teacher" />
+            </div>
+
+            <div>
+              <label for="officer">Offcier</label>
+              <input type="radio" id="officer" name="Job" value="Offcier" />
+            </div>
+
+            <div>
+              <label for="doctor">Doctor</label>
+              <input type="radio" id="doctor" name="Job" value="Doctor" />
+            </div>
+
+            <div>
+              <label for="programmer">Programmer</label>
+              <input
+                type="radio"
+                id="programmer"
+                name="Job"
+                value="Programmer"
+              />
+            </div>
+
+            <div>
+              <label for="management">Management</label>
+              <input
+                type="radio"
+                id="management"
+                name="Job"
+                value="Management"
+              />
+            </div>
+          </div>
+
+          <hr />
+
+          <div>
+            <h3>" Skills "</h3>
+
+            <div>
+              <label for="communication">Communication</label>
+              <input
+                type="checkbox"
+                id="communication"
+                name="Skills"
+                value="Communication"
+              />
+            </div>
+
+            <div>
+              <label for="adaptability">Adaptability</label>
+              <input
+                type="checkbox"
+                id="adaptability"
+                name="Skills"
+                value="Adaptability"
+              />
+            </div>
+
+            <div>
+              <label for="problem-solving">Problem Solving</label>
+              <input
+                type="checkbox"
+                id="problem-solving"
+                name="Skills"
+                value="problem-solving"
+              />
+            </div>
+
+            <div>
+              <label for="management">Management</label>
+              <input
+                type="checkbox"
+                id="management"
+                name="Skills"
+                value="problem-solving"
+              />
+            </div>
+
+            <div>
+              <label for="planning">Planning</label>
+              <input
+                type="checkbox"
+                id="planning"
+                name="Skills"
+                value="Planning"
+              />
+            </div>
+          </div>
+
+          <hr />
+
+          <div>
+            <label for="lang">Programmer Language</label>
+            <select name="Lang" id="lang">
+              <option value="Js">Js</option>
+              <option value="Java">Java</option>
+              <option value="Php">Php</option>
+              <option value="C#">C#</option>
+              <option value="C++">C++</option>
+              <option value="Python">Python</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label for="Framewokrk">Programmer Language Framewokrk</label>
+            <select name="Framewokrk" id="Framewokrk">
+              <optgroup label="JS">
+                <option value="Angular">Angular</option>
+                <option value="React">React</option>
+                <option value="Vue">Vue</option>
+              </optgroup>
+              <optgroup label="Php">
+                <option value="Laravel">Laravel</option>
+                <option value="Symfony">Symfony</option>
+                <option value="Phalcon">Phalcon</option>
+              </optgroup>
+              <optgroup label="Python">
+                <option value="LangChain">LangChain</option>
+                <option value="OpenCV">OpenCV</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <br />
+          <br />
+
+          <div>
+            <textarea name="txt" cols="40" rows="7">
+You Can Write Anything About Yor Submit</textarea
+            >
+          </div>
+
+          <hr />
 
           <div style="display: flex; justify-content: space-evenly">
             <div>
